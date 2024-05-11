@@ -1,0 +1,18 @@
+package "Lib" (
+  directory = "Lib"
+  version = "0.1"
+  description = ""
+  requires =
+  "angstrom
+   base
+   ppx_deriving.runtime
+   ppx_expect.collector
+   ppx_expect.config
+   ppx_here.runtime-lib
+   ppx_inline_test.config
+   ppx_inline_test.runtime-lib"
+  archive(byte) = "DAliev_lib.cma"
+  archive(native) = "DAliev_lib.cmxa"
+  plugin(byte) = "DAliev_lib.cma"
+  plugin(native) = "DAliev_lib.cmxs"
+)

@@ -1,0 +1,34 @@
+lib: [
+  "_build/install/default/lib/DAliev/Lib/DAliev_lib.a" {"Lib/DAliev_lib.a"}
+  "_build/install/default/lib/DAliev/Lib/DAliev_lib.cma" {"Lib/DAliev_lib.cma"}
+  "_build/install/default/lib/DAliev/Lib/DAliev_lib.cmxa" {"Lib/DAliev_lib.cmxa"}
+  "_build/install/default/lib/DAliev/Lib/ast.ml" {"Lib/ast.ml"}
+  "_build/install/default/lib/DAliev/Lib/dAliev_lib.cmi" {"Lib/dAliev_lib.cmi"}
+  "_build/install/default/lib/DAliev/Lib/dAliev_lib.cmt" {"Lib/dAliev_lib.cmt"}
+  "_build/install/default/lib/DAliev/Lib/dAliev_lib.cmx" {"Lib/dAliev_lib.cmx"}
+  "_build/install/default/lib/DAliev/Lib/dAliev_lib.ml" {"Lib/dAliev_lib.ml"}
+  "_build/install/default/lib/DAliev/Lib/dAliev_lib__Ast.cmi" {"Lib/dAliev_lib__Ast.cmi"}
+  "_build/install/default/lib/DAliev/Lib/dAliev_lib__Ast.cmt" {"Lib/dAliev_lib__Ast.cmt"}
+  "_build/install/default/lib/DAliev/Lib/dAliev_lib__Ast.cmx" {"Lib/dAliev_lib__Ast.cmx"}
+  "_build/install/default/lib/DAliev/Lib/dAliev_lib__Interpret.cmi" {"Lib/dAliev_lib__Interpret.cmi"}
+  "_build/install/default/lib/DAliev/Lib/dAliev_lib__Interpret.cmt" {"Lib/dAliev_lib__Interpret.cmt"}
+  "_build/install/default/lib/DAliev/Lib/dAliev_lib__Interpret.cmx" {"Lib/dAliev_lib__Interpret.cmx"}
+  "_build/install/default/lib/DAliev/Lib/dAliev_lib__Parser.cmi" {"Lib/dAliev_lib__Parser.cmi"}
+  "_build/install/default/lib/DAliev/Lib/dAliev_lib__Parser.cmt" {"Lib/dAliev_lib__Parser.cmt"}
+  "_build/install/default/lib/DAliev/Lib/dAliev_lib__Parser.cmx" {"Lib/dAliev_lib__Parser.cmx"}
+  "_build/install/default/lib/DAliev/Lib/interpret.ml" {"Lib/interpret.ml"}
+  "_build/install/default/lib/DAliev/Lib/parser.ml" {"Lib/parser.ml"}
+  "_build/install/default/lib/DAliev/META"
+  "_build/install/default/lib/DAliev/dune-package"
+  "_build/install/default/lib/DAliev/opam"
+]
+libexec: [
+  "_build/install/default/lib/DAliev/Lib/DAliev_lib.cmxs" {"Lib/DAliev_lib.cmxs"}
+]
+bin: [
+  "_build/install/default/bin/demoInterpret"
+  "_build/install/default/bin/demoParse"
+]
+doc: [
+  "_build/install/default/doc/DAliev/README.md"
+]
