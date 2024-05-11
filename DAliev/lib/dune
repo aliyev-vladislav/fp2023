@@ -1,0 +1,20 @@
+(library
+ (name DAliev_lib)
+ (public_name DAliev.Lib)
+ (modules Ast Parser Interpret Infer Typing)
+ (inline_tests)
+ (libraries base angstrom)
+ (preprocess
+  (pps ppx_expect ppx_deriving.show ppx_deriving.eq ppx_expect))
+ (instrumentation
+  (backend bisect_ppx)))
+
+(library
+ (name tests)
+ (modules tests)
+ (libraries DAliev_lib)
+ (preprocess
+  (pps ppx_expect ppx_deriving.show))
+ (instrumentation
+  (backend bisect_ppx))
+ (inline_tests))

@@ -1,0 +1,30 @@
+(lang dune 3.7)
+
+(generate_opam_files true)
+
+(cram enable)
+
+(license LGPL-3.0-or-later)
+
+(authors "Vladislav Aliev")
+
+(maintainers "Vladislav Aliev")
+
+(bug_reports "dalv_veyila@gmail.com")
+
+(homepage "https://github.com/aliyev-vladislav/fp2023")
+
+(package
+ (name DAliev) ; FIXME and regenerate .opam file using 'dune build @install'
+ (synopsis "MiniML interpreter")
+ (description "MiniML interpreter")
+ (version 0.1)
+ (depends
+  dune
+  angstrom
+  (ppx_inline_test :with-test)
+  ppx_expect
+  ppx_deriving
+  bisect_ppx
+  (odoc :with-doc)
+  (ocamlformat :build)))
