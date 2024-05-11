@@ -8,7 +8,7 @@ Author: Vladislav Aliev, dalv.veyila@gmail.com
 
 Features done (append only):
 
-- Parser  
+- parser  
 - interpreter 
 - make-pretty-printing
 - typechecker
